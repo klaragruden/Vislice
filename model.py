@@ -18,7 +18,7 @@ class Igra:
         
 
     def pravilne_crke(self):
-        return [crka for crka in self.crka if crka in self.geslo]
+        return [crka for crka in self.crke if crka in self.geslo]
          
 
     
