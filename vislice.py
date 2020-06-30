@@ -33,4 +33,4 @@ def ugibaj():
 def pokazi_sliko(slika): 
     return bottle.static_file(slika, root='img') #vrne vsebino te datoteke
 
-bottle.run(reloader=True, debug=True)
+bottle.run(reloader=True, debug=True)                                
